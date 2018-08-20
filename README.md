@@ -15,13 +15,13 @@ Add the following to your config (keep keys to prevent double integration):
 ### Contao 4
 
 ```
-$GLOBALS['TL_JAVASCRIPT']['huh_components_fastclick'] = 'assets/fastclick/lib/fastclick.min.js|static';
+$GLOBALS['TL_JAVASCRIPT']['fastclick'] = 'assets/fastclick/lib/fastclick.min.js|static';
 ```
 
 ### Contao 3
 
 ```
-$GLOBALS['TL_JAVASCRIPT']['huh_components_fastclick'] = 'assets/components/fastclick/lib/fastclick.min.js|static';
+$GLOBALS['TL_JAVASCRIPT']['fastclick'] = 'assets/components/fastclick/lib/fastclick.min.js|static';
 ```
 
 ## Internal
